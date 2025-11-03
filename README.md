@@ -6,7 +6,7 @@ Through orchestrating computation and I/O, balancing interactive and CPU-heavy t
 
 This represents a scheduling regime, which, although rigorous, is optimized for a simple set of tasks (here, the exponential-time algorithm: calculating the fibonacci sequence).
 
-Once the kernel is built and compiled with the oven class, we can simply call `make` and then `./fibonacci n` where n is a positive integer, to use the ove class's policy.
+Once the kernel is built and compiled with the oven class, we can simply call `make` and then `./fibonacci n` where n is a positive integer, to use the oven class's policy.
 
 
 Please note that kernel development is best done with VMWare or an equivalent tool; also necessary is setting up the Linux kernel on the VM -- a great guide is [here](https://w4118.github.io/guides/kernel-compilation.html)!
